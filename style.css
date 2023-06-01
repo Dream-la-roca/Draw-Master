@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background: url(https://yt3.googleusercontent.com/8MurZ5YazbgFgT5IcZBlBM-L7md5w6W1SxAHOFVsMKIe34iamVASXlKGr7XhWUyUt96PFntpzQ0=s900-c-k-c0x00ffffff-no-rj)
+}
+
+h1 {
+    background-color: cornflowerblue;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: rgb(35, 192, 134) !important;
+    animation-name: colorTexto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorTexto {
+    0% {
+        background-color: rgb(35, 192, 134);
+    }
+
+    25% {
+        background-color: rgb(128, 132, 11);
+    }
+
+    50% {
+        background-color: rgb(201, 214, 26);
+    }
+
+    75% {
+        background-color: rgb(219, 88, 22);
+    }
+
+    80% {
+        background-color: rgb(14, 232, 36);
+    }
+
+    100% {
+        background-color: rgb(35, 192, 134);
+    }
+    }
+
+    @keyframes sombra {
+        0%{
+            box-shadow: 0px 2px 15px gray;
+        }
+        50%{
+            box-shadow: 0px 2px 15px black;
+        }
+        100%{
+            box-shadow: 0px 2px 15px gray;
+        }
+    }
+
+    canvas{
+        animation-name: sombra;
+        animation-duration: 5s;
+        animation-iteration-count:infinite ;
+        margin-top: 45vh;
+    }
